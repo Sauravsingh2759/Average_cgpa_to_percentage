@@ -2,14 +2,16 @@ var a = [];
 function getInput(i){
 	var select = document.getElementById('inputs');
 	var selecting = select.getElementsByTagName('input')[i].value;
+	var message = document.getElementById('the-message');
 	if (selecting > 10) 
 	{
-		var message = document.getElementById('the-message');
 		var danger = '<div class="alert alert-danger" role="alert"><strong>Error</strong> Your S.G.P.A Should not be Greater Than 10.</div>';
 		message.innerHTML = danger;
+		select.getElementsByTagName('input')[i].value="";
 	}
 	else
 	{
+		message.innerHTML = ""
 		a[i] = selecting;
 	}
 	
