@@ -20,10 +20,7 @@ function result(){
 		for (var i = 0; i < a.length; i++) 
 		{
 			total += parseFloat(a[i]);
-			console.log(total);
 		}
-		console.log(total);
-		console.log(a.length);
 		var average = total/a.length;
 		var percentage = (average * 10) - 7.5;
 		var success = '<div class="alert alert-success" role="alert">Your Average percentage is <strong>' + percentage.toFixed(2) + '%</strong></div>';
