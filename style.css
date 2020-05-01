@@ -97,7 +97,7 @@
   }
 
 body{
-  padding: 50px;
+	padding: 50px;
   background-image: url('bg-m.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,16 +115,17 @@ body{
 	flex-direction: column;
 }
 #first_part img{
-	width: 150px;
+	width: 200px;
 }
 
 #first_part h1{
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 20px;
+  color: white;
 }
 #second_part{
-		margin-top: 20px;
+		margin-top: 80px;
 	}
 	#first_part{
 		padding-top: 10px;
@@ -193,7 +194,7 @@ body{
 	width: 80%;
 	height: calc(100vh - 200px);
 	display: flex;
-	opacity: 0.8;
+	/*opacity: 0.4;*/
 }
 #first_part,#second_part{
 	width: 50%;
