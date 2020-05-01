@@ -97,15 +97,14 @@
   }
 
 body{
-	background-color: #06222E;
-	padding: 20px;
-  background-image: url('bg.jpg');
+  padding: 50px;
+  background-image: url('bg-m.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #container{
-	background-color:#6C757D;
+	background-color:rgba(255, 255, 255, .1);
 	width: 100%;
 	height: calc(100vh - 40px);
 }
